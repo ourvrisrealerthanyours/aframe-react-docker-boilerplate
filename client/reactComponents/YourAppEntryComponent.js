@@ -3,7 +3,12 @@ import React from 'react';
 class YourAppEntryComponent extends React.Component {
   render() {
     return (
-      <div />
+      <a-scene>
+        <a-assets>
+        </a-assets>
+        <a-sky color='blue' />
+        <a-box position='0 0 -5' color='red'/>
+      </a-scene>
     );
   }
 }
